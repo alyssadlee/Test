@@ -747,17 +747,16 @@ h2 {
 .modal-close {
   background: #fafbfb;
   position: fixed;
-  left: 1em;
-  top: 1em;
+  left: 2em;
+  top: 2em;
   border: 0;
   width: 2em;
   height: 2em;
-  padding: 4px 0 0;
+  padding: 3px 0 0;
   border-radius: 50%;
   cursor: pointer;
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-  z-index: 30;
 }
 
 .portfolio-header {
