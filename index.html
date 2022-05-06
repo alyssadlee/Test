@@ -175,7 +175,7 @@
 
         <section class="contact" id="contact">
             <h1>Contact me</h1>
-            <form action="mailto:alyssadlee@gmail.com" method="get" enctype="text/plain">
+            <form onsubmit="sendEmail(); reset(); return false;">
                 <label class="name">Name:
                     <input type="text" id="name">
                 </label>
@@ -204,5 +204,8 @@
     </div>
     <script src="js/nav.js"></script>
     <script src="js/modal.js"></script>
+    <script src="js/form.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    
 </body>
 </html>
