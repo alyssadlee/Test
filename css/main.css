@@ -757,6 +757,7 @@ h2 {
   cursor: pointer;
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  z-index: 30;
 }
 
 .portfolio-header {
