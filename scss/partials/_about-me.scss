@@ -22,6 +22,7 @@
     color: $maroon;
     text-align: center;
     font-size: 3em;
+    border-radius: 0.25rem;
 
     @include mq {
         font-size: 4.25em; 

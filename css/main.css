@@ -526,6 +526,7 @@ h2 {
   color: #7a201b;
   text-align: center;
   font-size: 3em;
+  border-radius: 0.25rem;
 }
 
 @media (min-width: 50em) {
@@ -630,6 +631,7 @@ h2 {
      object-fit: cover;
   width: 100%;
   max-height: 100%;
+  border-radius: 0.25rem;
 }
 
 .portfolio-item figcaption {
@@ -766,13 +768,13 @@ h2 {
 }
 
 .header-one {
-  background-image: url(../images/Tribute_Page.jpg);
+  background: #F9E7D5;
   background-size: cover;
   background-position: center;
 }
 
 .header-five {
-  background-image: url(../images/Kaylene_Fam.jpg);
+  background: #F9E7D5;
   background-size: cover;
   background-position: center;
 }
