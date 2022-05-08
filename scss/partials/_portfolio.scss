@@ -40,6 +40,10 @@
         display: flex;
         flex-direction: column; 
         transition: top ease-in-out 250ms; 
+
+        @include mq {
+            padding: 0.5em;
+        }
     }
 
     &:hover figcaption,
@@ -51,13 +55,18 @@
 .portfolio-title {
     @include serif ($fs: 1.5em);
     margin-bottom: auto;
+
+    @include mq {
+        font-size: 0.9em;
+    }
 }
 
 .portfolio-desc {
-    // display: none;
+    display: none;
     
     @include mq {
-        display: none;
+        display: block;
+        font-size: 0.75em;
     }
 }
 
@@ -98,7 +107,7 @@
 
     .featured {
         .portfolio-title {
-            font-size: 3em; 
+            font-size: 2em; 
         }  
 
         .portfolio-desc {
@@ -162,7 +171,7 @@
     background: rgba($dark-grey, 0.75); 
     padding: 3em 3em 3em 1em; 
     color: $white; 
-    width: 70%; 
+    width: 75%; 
 
     .portfolio-title {
     font-size: 2em; 

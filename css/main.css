@@ -655,6 +655,12 @@ h2 {
   transition: top ease-in-out 250ms;
 }
 
+@media (min-width: 50em) {
+  .portfolio-item figcaption {
+    padding: 0.5em;
+  }
+}
+
 .portfolio-item:hover figcaption,
 .portfolio-item:focus figcaption {
   top: 0;
@@ -671,8 +677,19 @@ h2 {
 }
 
 @media (min-width: 50em) {
+  .portfolio-title {
+    font-size: 0.9em;
+  }
+}
+
+.portfolio-desc {
+  display: none;
+}
+
+@media (min-width: 50em) {
   .portfolio-desc {
-    display: none;
+    display: block;
+    font-size: 0.75em;
   }
 }
 
@@ -720,7 +737,7 @@ h2 {
     grid-row: 1 / span 2;
   }
   .featured .portfolio-title {
-    font-size: 3em;
+    font-size: 2em;
   }
   .featured .portfolio-desc {
     display: block;
@@ -783,11 +800,11 @@ h2 {
   background: rgba(47, 47, 47, 0.75);
   padding: 3em 3em 3em 1em;
   color: #fafbfb;
-  width: 70%;
+  width: 75%;
 }
 
 .portfolio-title-box .portfolio-title {
-  font-size: 2.5em;
+  font-size: 2em;
   color: #fafbfb;
   display: inline-block;
 }
